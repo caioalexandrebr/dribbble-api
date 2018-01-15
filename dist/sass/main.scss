@@ -1,0 +1,47 @@
+/* DEFAULT CSS -----------------------------------------------------------*/
+
+html{
+	font-size: 1em;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: rgb(32, 32, 32);
+}
+
+.faixa{
+	height: 70px;
+	width: 100%;
+}
+
+.nospace{
+	margin: 0;
+	padding: 0;
+}
+
+.break-word{
+	word-wrap: break-word;
+}
+
+.nolist{
+	list-style: none;
+}
+
+
+/* MEDIA QUERY ------------------------------------------------------------*/
+//
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+
+}

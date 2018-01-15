@@ -1,0 +1,28 @@
+{
+  "name": "dribbble-api",
+  "authors": [
+    "Caio Alexandre <caioalexandre.br@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "libs"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "bourbon": "^4.2.7",
+    "mdi": "^1.7.22",
+    "css-hamburgers": "^0.9.1",
+    "angular": "^1.6.8",
+    "angular-cookies": "^1.6.8",
+    "angular-resource": "^1.6.8",
+    "angular-route": "^1.6.8",
+    "angular-sanitize": "^1.6.8"
+  }
+}
