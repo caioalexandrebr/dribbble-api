@@ -8,7 +8,7 @@ var gulp = require('gulp'),
  
 //Concat all JS
 gulp.task('concatJs', function() {
-  gulp.src('./dist/js/main.js')
+  gulp.src(['./dist/js/main.js', './dist/js/token.js', './dist/js/controllers.js'])
     .pipe(uglify())
     .pipe(concat('main.min.js'))
     .pipe(gulp.dest('./dist/js/'));
