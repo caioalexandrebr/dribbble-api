@@ -35,13 +35,28 @@ $screen-lg-min: "1200px";
 
 
 /* MAIN CSS -----------------------------------------------------------*/
+.loading {
+	margin: 200px auto;
+}
+
 .header {
 	background-color: #343434;
 	padding: 50px 0px;
+	margin-bottom: 100px;
 	.dribbble-logo {
 		width: 100px;
 		height: auto;
 	}
+}
+
+.content-default {
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	background-color: #FFFFFF;
+	-webkit-box-shadow: 0px 1px 5px 0px rgba(224,224,224,1);
+	-moz-box-shadow: 0px 1px 5px 0px rgba(224,224,224,1);
+	box-shadow: 0px 1px 5px 0px rgba(224,224,224,1);
 }
 
 
@@ -51,6 +66,9 @@ $screen-lg-min: "1200px";
 	white-space: nowrap;                
 	overflow: hidden;
 	text-overflow: ellipsis;
+}
+.detail-text {
+	margin-bottom: 30px;
 }
 
 // Imagem
@@ -62,13 +80,11 @@ $screen-lg-min: "1200px";
 	padding: 0;
   }
 .box-img {
-	background-color: red;
+	overflow: hidden;
 	position: relative;
 	border: 1px solid #f6f6f6;
-	overflow: hidden;
 	img {
-		max-width: 100%;
-		
+		width: 100%;
 		-moz-transition: all 0.5s;
 		-webkit-transition: all 0.5s;
 		transition: all 0.5s;
@@ -83,72 +99,88 @@ $screen-lg-min: "1200px";
 // Repeat
 .shot-list { // li
 	margin-bottom: 30px;
+}
+.content-title {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
 
-	.content-default {
-		width: 100%;
-		height: auto;
-		padding: 10px;
-		background-color: #FFFFFF;
-		-webkit-box-shadow: 0px 1px 5px 0px rgba(224,224,224,1);
-		-moz-box-shadow: 0px 1px 5px 0px rgba(224,224,224,1);
-		box-shadow: 0px 1px 5px 0px rgba(224,224,224,1);
+.content-count {
+	width: auto;
+	height: auto;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	font-size: 12px;
 
-		.content-title {
-			width: 100%;
-			height: auto;
-			display: flex;
-			flex-direction: row;
-			align-items: center;
-			justify-content: space-between;
-
-			.content-count {
-				width: auto;
-				height: auto;
-				display: flex;
-				align-items: center;
-				flex-direction: row;
-				font-size: 12px;
-			
-				.views-count {
-					display: flex;
-					flex-wrap: nowrap;
-					flex-direction: row;
-				}
-				.comments-count {
-					margin-left: 10px;
-					display: flex;
-					flex-wrap: nowrap;
-					flex-direction: row;
-				}
-				.likes-count {
-					margin-left: 10px;
-					display: flex;
-					flex-wrap: nowrap;
-					flex-direction: row;
-					
-					.mdi {
-						color: #f04c8d;
-					}
-				}
-			}
+	.views-count {
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: row;
+	}
+	.comments-count {
+		margin-left: 10px;
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: row;
+	}
+	.likes-count {
+		margin-left: 10px;
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: row;
+		
+		.mdi {
+			color: #f04c8d;
 		}
 	}
+}
 
-	.content-user {
-		width: 100%;
+.content-user {
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	margin-top: 10px;
+	font-size: 14px;
+
+	.user-avatar {
+		width: 30px;
 		height: auto;
-		display: flex;
-		align-items: center;
-		flex-direction: row;
-		margin-top: 10px;
-		font-size: 14px;
+		margin-right: 10px;
+	}
+	.user-user {
+		width: auto;
+		height: auto;
+		font-size: 12px;
+		font-weight: bold;
+	}
+}
 
-		.user-avatar {
+// Detail
+.content-user-detail {
+	width: 100%;
+	height: auto;
+
+	margin-top: 10px;
+	font-size: 14px;
+	
+	.content-user-avatar {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+
+		.user-avatar-detail {
 			width: 30px;
 			height: auto;
 			margin-right: 10px;
 		}
-		.user-user {
+		.user-user-detail {
 			width: auto;
 			height: auto;
 			font-size: 12px;

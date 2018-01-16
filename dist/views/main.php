@@ -1,11 +1,3 @@
-<!-- Header -->
-<header class="text-center header">
-    <div class="container">
-        <img class="dribbble-logo" src="img/dribbble.png" alt="Concrete Logo">
-    </div>
-</header>
-<!-- End Header -->
-
 <div class="container">
     <main ng-controller="MainCtrl as mainCtrl">
         <ul class="nospace">
@@ -43,20 +35,9 @@
                         <span>{{shot.user.name}}</span> <!-- Username -->
                     </div>
                 </div>
-                 
-                
 
-                <!-- <button data-toggle="collapse" data-target="#country-{{$index}}">Open The Tcheca</button>
-                <div id="country-{{$index}}" class="collapse">
-                    <span style="color: red;" class="user-bio" ng-bind-html="shot.description"></span>
-                </div> -->
-
-                <li ng-show="mainCtrl.shots.length == 0 || mainCtrl.shots == null">Carregando...</li>
+                <li class="col-xs-2 col-xs-offset-10 nolist" style="margin: 0 auto;" ng-show="mainCtrl.shots.length == 0 || mainCtrl.shots == null">Loading...</li>
             </li>
         </ul>
     </main>
 </div>
-
-<footer class="text-center">
-    <!-- Footer -->
-</footer>
