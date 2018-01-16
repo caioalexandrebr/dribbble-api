@@ -5,9 +5,10 @@ html{
 }
 
 body{
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-size: 1em;
-	color: rgb(32, 32, 32);
+	color: #b6b6b6;
+	background-color: #f4f4f4;
 }
 
 .faixa{
@@ -32,6 +33,129 @@ $screen-sm-min: "768px";
 $screen-md-min: "992px";
 $screen-lg-min: "1200px";
 
+
+/* MAIN CSS -----------------------------------------------------------*/
+.header {
+	background-color: #343434;
+	padding: 50px 0px;
+	.dribbble-logo {
+		width: 100px;
+		height: auto;
+	}
+}
+
+
+// Title
+.title-text {
+	font-size: 14px;
+	white-space: nowrap;                
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+// Imagem
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  }
+.box-img {
+	background-color: red;
+	position: relative;
+	border: 1px solid #f6f6f6;
+	overflow: hidden;
+	img {
+		max-width: 100%;
+		
+		-moz-transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		transition: all 0.5s;
+		&:hover {
+			-moz-transform: scale(1.2);
+			-webkit-transform: scale(1.2);
+			transform: scale(1.2);
+		}
+	}
+}
+
+// Repeat
+.shot-list { // li
+	margin-bottom: 30px;
+
+	.content-default {
+		width: 100%;
+		height: auto;
+		padding: 10px;
+		background-color: #FFFFFF;
+		-webkit-box-shadow: 0px 1px 5px 0px rgba(224,224,224,1);
+		-moz-box-shadow: 0px 1px 5px 0px rgba(224,224,224,1);
+		box-shadow: 0px 1px 5px 0px rgba(224,224,224,1);
+
+		.content-title {
+			width: 100%;
+			height: auto;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-between;
+
+			.content-count {
+				width: auto;
+				height: auto;
+				display: flex;
+				align-items: center;
+				flex-direction: row;
+				font-size: 12px;
+			
+				.views-count {
+					display: flex;
+					flex-wrap: nowrap;
+					flex-direction: row;
+				}
+				.comments-count {
+					margin-left: 10px;
+					display: flex;
+					flex-wrap: nowrap;
+					flex-direction: row;
+				}
+				.likes-count {
+					margin-left: 10px;
+					display: flex;
+					flex-wrap: nowrap;
+					flex-direction: row;
+					
+					.mdi {
+						color: #f04c8d;
+					}
+				}
+			}
+		}
+	}
+
+	.content-user {
+		width: 100%;
+		height: auto;
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		margin-top: 10px;
+		font-size: 14px;
+
+		.user-avatar {
+			width: 30px;
+			height: auto;
+			margin-right: 10px;
+		}
+		.user-user {
+			width: auto;
+			height: auto;
+			font-size: 12px;
+			font-weight: bold;
+		}
+	}
+}
 
 /* MEDIA QUERY ------------------------------------------------------------*/
 //

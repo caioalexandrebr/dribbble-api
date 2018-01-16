@@ -60,9 +60,9 @@ Project date: 15/01/2018 (Início) - xx/xx/xxxx(Término)
  @import "libs/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
 
 //IMPORTS BASE
-@import "libs/mdi/scss/materialdesignicons";
+@import "libs/mdi/scss/materialdesignicons.css";
 @import "libs/css-hamburgers/dist/hamburgers.min.css";
-@import "libs/bourbon/app/assets/stylesheets/_bourbon";
+// @import "libs/bourbon/app/assets/stylesheets/_bourbon";
 // @import 'libs/fancybox/dist/jquery.fancybox.min.css';
 
 //SITE ADD ONS
