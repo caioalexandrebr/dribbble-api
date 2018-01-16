@@ -29,25 +29,21 @@ body{
 	list-style: none;
 }
 
+.p-default {
+	margin: 20px 0px;
+}
+
+.active {
+	font-weight: bold;
+	color: #f04c8d;
+}
+
 $screen-sm-min: "768px";
 $screen-md-min: "992px";
 $screen-lg-min: "1200px";
 
 
 /* MAIN CSS -----------------------------------------------------------*/
-.loading {
-	margin: 200px auto;
-}
-
-.header {
-	background-color: #343434;
-	padding: 50px 0px;
-	margin-bottom: 100px;
-	.dribbble-logo {
-		width: 100px;
-		height: auto;
-	}
-}
 
 .content-default {
 	width: 100%;
@@ -58,17 +54,9 @@ $screen-lg-min: "1200px";
 	-moz-box-shadow: 0px 1px 5px 0px rgba(224,224,224,1);
 	box-shadow: 0px 1px 5px 0px rgba(224,224,224,1);
 }
-
-
-// Title
-.title-text {
-	font-size: 14px;
-	white-space: nowrap;                
-	overflow: hidden;
-	text-overflow: ellipsis;
-}
-.detail-text {
-	margin-bottom: 30px;
+.logo {
+	width: 100px;
+	height: auto;
 }
 
 // Imagem
@@ -108,7 +96,6 @@ $screen-lg-min: "1200px";
 	align-items: center;
 	justify-content: space-between;
 }
-
 .content-count {
 	width: auto;
 	height: auto;
@@ -139,7 +126,6 @@ $screen-lg-min: "1200px";
 		}
 	}
 }
-
 .content-user {
 	width: 100%;
 	height: auto;
@@ -162,11 +148,25 @@ $screen-lg-min: "1200px";
 	}
 }
 
-// Detail
+/* DETAIL CSS -----------------------------------------------------------*/
+.directory {
+	padding-bottom: 30px;
+
+	.directory-link {
+		color: #b6b6b6;
+		font-weight: bold;
+		&:hover {
+			color: #f04c8d;
+			text-decoration: none;
+		}
+	}
+}
+.detail-text {
+	margin-bottom: 30px;
+}
 .content-user-detail {
 	width: 100%;
 	height: auto;
-
 	margin-top: 10px;
 	font-size: 14px;
 	

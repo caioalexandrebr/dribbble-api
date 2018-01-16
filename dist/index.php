@@ -16,7 +16,7 @@
     <!-- Bootstrap -->
     <script src="/dist/libs/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
     <!-- Javascript -->
-    <script src="/dist/js/main.js"></script>
+    <script src="/dist/js/main.min.js"></script>
     <!-- Style -->
     <link rel="stylesheet" href="/dist/style.css">
 </head>

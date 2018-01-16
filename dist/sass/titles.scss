@@ -1,0 +1,33 @@
+.title {
+	font-size: 14px;
+	white-space: nowrap;                
+	overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    
+    a {
+        color: #b6b6b6;
+        &:hover {
+            color: #707070;
+            text-decoration: none;
+        }
+    }
+}
+
+.title-interna {
+    font-size: 25px;
+    color: #f04c8d;
+    font-weight: bold;
+    border-left: 3px solid #f04c8d;
+    padding-left: 10px
+}
+
+.link {
+    color: #f04c8d;
+    font-weight: bold;
+
+    &:hover {
+        color: #f768a1;
+        text-decoration: none;
+    }
+}
