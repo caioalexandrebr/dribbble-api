@@ -1,6 +1,6 @@
 # Dribbble API - Caio Alexandre
 
-Imprementação da aplicação do Dribbble completamente em client-side utilizando o Angular 1.6.8. Aplicação totalmente respondiva utilizando o Framework CSS Bootstrap 3 e funcionando nos navegadores mais recentes do mercado.
+Implementação da aplicação do Dribbble completamente em client-side utilizando o Angular 1.6.8. Aplicação totalmente responsiva utilizando o Framework CSS Bootstrap 3 e funcionando nos navegadores mais recentes do mercado.
 
 ## Começando
 Estas instruções irão levá-lo a uma cópia do projeto em funcionamento em sua máquina local para fins de desenvolvimento e teste. Consulte as notas sobre como implantar o projeto em seu sistema.
