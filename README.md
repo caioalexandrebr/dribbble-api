@@ -41,4 +41,4 @@ Atualmente na versão 1.0.0.
 
 ## Autores
 
-* **Caio Alexandre** - *Front-end* - [GitHub](https://github.com/caioalexandrebr)
+* **Caio Alexandre** - *Front-end* - [GitHub](https://github.com/caioalexandrebr) - [Linkedin](https://www.linkedin.com/in/caioalexandrebr)
