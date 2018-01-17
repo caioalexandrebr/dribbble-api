@@ -8,11 +8,11 @@ app.config(["$httpProvider", function(a) {
 app.config(["$routeProvider", function(a) {
     a.when("/", {
         templateUrl: function(a) {
-            return "views/main.html?random=" + Math.random() // Home
+            return "js/views/main.html?random=" + Math.random() // Home
         }
     }).when("/detail/:id", {
         templateUrl: function(a) {
-            return "views/detail.html?random=" + Math.random() // Detail
+            return "js/views/detail.html?random=" + Math.random() // Detail
         }
     }).otherwise({
         redirectTo: "/"
